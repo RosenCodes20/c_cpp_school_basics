@@ -21,6 +21,6 @@ int main() {
     if (sum == 0) {
         cout << "Nothing has added : (" << endl;
     } else {
-        cout << sum << endl;
+        cout << sum << endl; 
     }
 }
