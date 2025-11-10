@@ -4,4 +4,5 @@ project(week06)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(week06
-        zadacha6.cpp)
+        zadacha6.cpp
+        zadacha7.cpp)
