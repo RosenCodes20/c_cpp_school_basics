@@ -60,10 +60,10 @@ int main() {
 
     cout << "Item id: " << i_const.getId() << endl;
 
-    // i_const.setId(20); // закоментирано, защото хвърля грешка, ако искате да го пробвате - ctrl + / или command + /  :)
+    // i_const.setId(20); // zakomentirano, zashtoto hvurlq greshka, ako iskate da go probvate - ctrl + / ili command + /  :)
 
-    // Грешка: i_const е константен обект (const Item), а setId не е const метод.
-    // Неконстантен метод не може да бъде извикан върху const обект, защото би променил състоянието му, а ние не целим това...
+    // Greshka: i_const e konstanten obekt (const Item), a setId ne e const metod.
+    // Nekonstanten metod ne moje da bude izvikan vurhu const obekt, zashtoto bi promenil sustoqnieto mu, a nie ne celim tova...
 
     cout << "Is equal: " <<  is_equal(10, 10) << endl;
     cout << "Is equal: " << is_equal(10.2, 10.2) << endl;
