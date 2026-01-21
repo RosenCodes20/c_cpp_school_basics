@@ -27,6 +27,7 @@ My goal: understand concepts fully and solve each exercise independently.
 ## 🧑‍🏫 Credits  
 
 Teacher (s): engineer **Krasimir Iliev**, engineer **Iordan Vladov**
+
 Author of the exercises: **Rosen Ivanov**  
 
 ---
