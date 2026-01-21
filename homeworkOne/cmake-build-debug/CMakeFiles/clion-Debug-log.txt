@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /Users/macbookpro16/Vs_code/c_c++_school_basics/homeworkOne Select CMakeLists.txt
