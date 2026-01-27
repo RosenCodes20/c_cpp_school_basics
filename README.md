@@ -18,7 +18,7 @@ Inside each folder:
 ---
 
 ## 📚 Lectures
-You can find all the lectures here: https://github.com/yordan-vladov/oop-lectures
+You can find all the lectures here: `https://github.com/yordan-vladov/oop-lectures`
 
 ---
 
