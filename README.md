@@ -13,7 +13,12 @@ Each folder corresponds to a week. Example layout:
 Inside each folder:  
 - exercise file(s).cpp  
 - screenshot of command output
-- and finnaly theory answers with file named otgovori.txt 
+- and finnaly theory answers with file named otgovori.txt
+
+---
+
+## 📚 Lectures
+You can find all the lectures here: https://github.com/yordan-vladov/oop-lectures
 
 ---
 
