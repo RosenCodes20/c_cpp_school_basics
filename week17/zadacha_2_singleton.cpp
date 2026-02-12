@@ -12,6 +12,11 @@ private:
     Configuration& operator = (const Configuration&) = delete;
 
 public:
+    static Configuration& getInstance() {
+        static Configuration instance;
+        return instance;
+    }
+
     void setSettings(string key, string value) {
         this->settings[key] = value;
     }
@@ -20,3 +25,17 @@ public:
         return this->settings[key];
     }
 };
+
+int main() {
+    Configuration& configuration1 = Configuration::getInstance();
+    Configuration& configuration2 = Configuration::getInstance();
+
+    configuration1.setSettings("username", "Rosen");
+    configuration2.setSettings("theme", "White");
+
+    cout << "Username: " << configuration1.getSetting("username") << endl;
+    cout << "Theme: " << configuration2.getSetting("theme") << endl;
+
+    cout << "Config 1 address: " << &configuration1 << endl;
+    cout << "Config 2 address: " << &configuration2 << endl;
+}
