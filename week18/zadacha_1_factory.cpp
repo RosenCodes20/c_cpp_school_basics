@@ -45,5 +45,4 @@ int main() {
 
     dog->speak();
     cat->speak();
-
 }
