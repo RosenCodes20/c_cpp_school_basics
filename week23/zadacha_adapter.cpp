@@ -46,5 +46,4 @@ int main()
     ChargerAdapter charger;
     charger.chargeWith5V();
     return 0;
-
 }
